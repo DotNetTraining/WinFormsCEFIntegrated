@@ -1,0 +1,14 @@
+[
+    {
+        "FormName": "Form1",
+        "RenderFrom": "Cef"
+    },
+    {
+        "FormName": "Form2",
+        "RenderFrom": "WindowsForm"
+    },
+    {
+        "FormName": "Form3",
+        "RenderFrom": "WindowsForm"
+    }
+]
