@@ -1,18 +1,17 @@
 [
     {
-        "FormName": "Form1",
-        "RenderFrom": "Cef"
+        // Setting for Purchase Order Entry
+        "FormName": "Form4",
+        "RenderFrom": "WindowsForm"
     },
     {
+        //Setting for Smart Po
         "FormName": "Form2",
         "RenderFrom": "WindowsForm"
     },
     {
+        //Setting for purchase Order Reports
         "FormName": "Form3",
-        "RenderFrom": "WindowsForm"
-    },
-    {
-        "FormName": "Form4",
         "RenderFrom": "WindowsForm"
     }
 ]

@@ -10,7 +10,7 @@ namespace WinFormsCEFIntegrated.Utility
             switch (renderFromType)
             {
                 case RenderFrom.Cef:
-                    return new Form4Cef();
+                    return new Form1Cef();
                 case RenderFrom.WindowsForm:
                     return new Form4();
                 default:

@@ -73,7 +73,7 @@
             this.panel1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(4, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1355, 451);
+            this.panel1.Size = new System.Drawing.Size(1360, 700);
             this.panel1.TabIndex = 0;
             // 
             // groupBox3
@@ -357,7 +357,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1358, 450);
+            this.ClientSize = new System.Drawing.Size(1360, 700);
             this.Controls.Add(this.panel1);
             this.Name = "Form4";
             this.Text = "Form4";
