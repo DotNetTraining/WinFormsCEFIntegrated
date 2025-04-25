@@ -26,7 +26,8 @@ namespace WinFormsCEFIntegrated
     {
         Form1 = 0,
         Form2 = 1,
-        Form3 = 2
+        Form3 = 2,
+        Form4 = 3
     }
 
     partial class MainForm

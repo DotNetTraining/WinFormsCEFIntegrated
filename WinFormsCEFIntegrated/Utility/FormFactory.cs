@@ -14,6 +14,8 @@ namespace WinFormsCEFIntegrated.Utility
                     return new Form2Factory();
                 case "Form3":
                     return new Form3Factory();
+                case "Form4":
+                    return new Form4Factory();
                 default:
                     throw new ArgumentException("Invalid form name", nameof(formName));
             }

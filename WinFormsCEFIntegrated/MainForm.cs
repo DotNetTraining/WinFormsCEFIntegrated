@@ -135,7 +135,7 @@ namespace WinFormsCEFIntegrated
         private void purchaseOrderEntryMenuItem_Click(object sender, EventArgs e)
         {
             HighlightMenuItem(sender);
-            RenderForm(RenderFormName.Form1.ToString());
+            RenderForm(RenderFormName.Form4.ToString());
         }
 
         private void smartPoImportMenuItem_Click(object sender, EventArgs e)

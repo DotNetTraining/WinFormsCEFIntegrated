@@ -10,5 +10,9 @@
     {
         "FormName": "Form3",
         "RenderFrom": "WindowsForm"
+    },
+    {
+        "FormName": "Form4",
+        "RenderFrom": "WindowsForm"
     }
 ]

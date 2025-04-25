@@ -109,6 +109,12 @@
     <Compile Include="Form4.Designer.cs">
       <DependentUpon>Form4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form4Cef.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4Cef.Designer.cs">
+      <DependentUpon>Form4Cef.cs</DependentUpon>
+    </Compile>
     <Compile Include="JsBridge.cs" />
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
@@ -128,6 +134,7 @@
     <Compile Include="SoapHelper.cs" />
     <Compile Include="Utility\Form1Factory.cs" />
     <Compile Include="Utility\Form2Factory.cs" />
+    <Compile Include="Utility\Form4Factory.cs" />
     <Compile Include="Utility\Form3Factory.cs" />
     <Compile Include="Utility\FormFactory.cs" />
     <Compile Include="Utility\IFormFactory.cs" />
