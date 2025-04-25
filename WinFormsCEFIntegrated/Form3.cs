@@ -17,20 +17,10 @@ namespace WinFormsCEFIntegrated
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
             this.StartPosition = FormStartPosition.CenterScreen;
-            this.Width = 1600;
-            this.Height = 800;
+            this.Width = 1360;
+            this.Height = 700;
             this.FormBorderStyle = FormBorderStyle.None;
             this.ControlBox = false;
-        }
-
-        private void Form3_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
