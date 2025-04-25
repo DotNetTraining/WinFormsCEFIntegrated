@@ -56,6 +56,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.panel1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -65,12 +66,14 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel1.Controls.Add(this.groupBox4);
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Controls.Add(this.groupBox3);
             this.panel1.Controls.Add(this.groupBox2);
-            this.panel1.Location = new System.Drawing.Point(-1, 0);
+            this.panel1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel1.Location = new System.Drawing.Point(4, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1031, 451);
+            this.panel1.Size = new System.Drawing.Size(1355, 451);
             this.panel1.TabIndex = 0;
             // 
             // groupBox3
@@ -91,7 +94,7 @@
             this.groupBox3.Controls.Add(this.label7);
             this.groupBox3.Controls.Add(this.label6);
             this.groupBox3.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(560, 16);
+            this.groupBox3.Location = new System.Drawing.Point(603, 16);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(460, 257);
             this.groupBox3.TabIndex = 2;
@@ -106,9 +109,9 @@
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(285, 18);
+            this.groupBox2.Location = new System.Drawing.Point(300, 18);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(243, 257);
+            this.groupBox2.Size = new System.Drawing.Size(276, 257);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Vendor Information";
@@ -125,7 +128,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(25, 18);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(233, 257);
+            this.groupBox1.Size = new System.Drawing.Size(257, 257);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Batch Control";
@@ -144,7 +147,7 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(93, 33);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(118, 20);
+            this.textBox1.Size = new System.Drawing.Size(136, 20);
             this.textBox1.TabIndex = 1;
             // 
             // label2
@@ -161,7 +164,7 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(93, 74);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(118, 20);
+            this.textBox2.Size = new System.Drawing.Size(136, 20);
             this.textBox2.TabIndex = 3;
             // 
             // label3
@@ -178,7 +181,7 @@
             // 
             this.textBox3.Location = new System.Drawing.Point(93, 202);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(118, 20);
+            this.textBox3.Size = new System.Drawing.Size(136, 20);
             this.textBox3.TabIndex = 5;
             // 
             // label4
@@ -205,7 +208,7 @@
             // 
             this.textBox4.Location = new System.Drawing.Point(100, 30);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(128, 20);
+            this.textBox4.Size = new System.Drawing.Size(149, 20);
             this.textBox4.TabIndex = 2;
             // 
             // linkLabel1
@@ -340,11 +343,21 @@
             this.textBox11.Size = new System.Drawing.Size(109, 20);
             this.textBox11.TabIndex = 13;
             // 
+            // groupBox4
+            // 
+            this.groupBox4.BackColor = System.Drawing.SystemColors.Control;
+            this.groupBox4.Location = new System.Drawing.Point(1084, 18);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(237, 255);
+            this.groupBox4.TabIndex = 4;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Other Information";
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1031, 450);
+            this.ClientSize = new System.Drawing.Size(1358, 450);
             this.Controls.Add(this.panel1);
             this.Name = "Form4";
             this.Text = "Form4";
@@ -389,5 +402,6 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.GroupBox groupBox4;
     }
 }
