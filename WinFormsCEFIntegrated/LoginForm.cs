@@ -26,8 +26,8 @@ namespace WinFormsCEFIntegrated
             // Set window width and height
             this.Width = 1600; 
             this.Height = 800; 
-            this.FormBorderStyle = FormBorderStyle.None; 
-            this.ControlBox = false;
+            this.FormBorderStyle = FormBorderStyle.Fixed3D; 
+            this.ControlBox = true;
             // Initialize MainForm
             //mainForm = new MainForm(_refreshInterval);
         }
