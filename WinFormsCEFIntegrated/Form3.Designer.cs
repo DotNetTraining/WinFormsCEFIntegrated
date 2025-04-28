@@ -92,7 +92,7 @@ namespace WinFormsCEFIntegrated
             // 
             // ReportId
             // 
-            this.ReportId.HeaderText = "ReportId";
+            this.ReportId.HeaderText = "ReportID";
             this.ReportId.Name = "ReportId";
             this.ReportId.ReadOnly = true;
             this.ReportId.Width = 131;

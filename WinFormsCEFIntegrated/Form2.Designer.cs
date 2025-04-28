@@ -320,7 +320,7 @@ namespace WinFormsCEFIntegrated
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 162;
+            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowTemplate.Height = 28;
             this.dataGridView1.Size = new System.Drawing.Size(1365, 557);
             this.dataGridView1.TabIndex = 10;
@@ -330,56 +330,56 @@ namespace WinFormsCEFIntegrated
             this.OrderType.HeaderText = "Order Type";
             this.OrderType.MinimumWidth = 8;
             this.OrderType.Name = "OrderType";
-            this.OrderType.Width = 150;
+            this.OrderType.Width = 165;
             // 
             // PO
             // 
             this.PO.HeaderText = "PO#";
             this.PO.MinimumWidth = 8;
             this.PO.Name = "PO";
-            this.PO.Width = 150;
+            this.PO.Width = 165;
             // 
             // Company
             // 
             this.Company.HeaderText = "Company";
             this.Company.MinimumWidth = 8;
             this.Company.Name = "Company";
-            this.Company.Width = 150;
+            this.Company.Width = 168;
             // 
             // VendorName
             // 
             this.VendorName.HeaderText = "Vendor Name";
             this.VendorName.MinimumWidth = 8;
             this.VendorName.Name = "VendorName";
-            this.VendorName.Width = 150;
+            this.VendorName.Width = 165;
             // 
             // Description
             // 
             this.Description.HeaderText = "Description";
             this.Description.MinimumWidth = 8;
             this.Description.Name = "Description";
-            this.Description.Width = 150;
+            this.Description.Width = 165;
             // 
             // OrderAmount
             // 
             this.OrderAmount.HeaderText = "Order Amount";
             this.OrderAmount.MinimumWidth = 8;
             this.OrderAmount.Name = "OrderAmount";
-            this.OrderAmount.Width = 150;
+            this.OrderAmount.Width = 165;
             // 
             // Currency
             // 
             this.Currency.HeaderText = "Currency";
             this.Currency.MinimumWidth = 8;
             this.Currency.Name = "Currency";
-            this.Currency.Width = 150;
+            this.Currency.Width = 165;
             // 
             // OrderDate
             // 
             this.OrderDate.HeaderText = "Order Date";
             this.OrderDate.MinimumWidth = 8;
             this.OrderDate.Name = "OrderDate";
-            this.OrderDate.Width = 148;
+            this.OrderDate.Width = 165;
             // 
             // panel3
             // 
