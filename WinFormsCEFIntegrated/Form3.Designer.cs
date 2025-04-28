@@ -70,8 +70,7 @@ namespace WinFormsCEFIntegrated
             // 
             // dataGridView1
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ReportId,
@@ -88,7 +87,7 @@ namespace WinFormsCEFIntegrated
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(1361, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(1365, 557);
             this.dataGridView1.TabIndex = 7;
             // 
             // ReportId
@@ -152,14 +151,14 @@ namespace WinFormsCEFIntegrated
             this.City.HeaderText = "City";
             this.City.Name = "City";
             this.City.ReadOnly = true;
-            this.City.Width = 132;
+            this.City.Width = 135;
             // 
             // Pincode
             // 
             this.Pincode.HeaderText = "Pincode";
             this.Pincode.Name = "Pincode";
             this.Pincode.ReadOnly = true;
-            this.Pincode.Width = 132;
+            this.Pincode.Width = 135;
             // 
             // label4
             // 
