@@ -54,6 +54,10 @@ namespace WinFormsCEFIntegrated
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridView1.BorderStyle = BorderStyle.FixedSingle;
+            this.dataGridView1.CellBorderStyle = DataGridViewCellBorderStyle.Single;
+            this.dataGridView1.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
+            this.dataGridView1.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             this.OrderType = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Company = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -375,7 +379,7 @@ namespace WinFormsCEFIntegrated
             this.OrderDate.HeaderText = "Order Date";
             this.OrderDate.MinimumWidth = 8;
             this.OrderDate.Name = "OrderDate";
-            this.OrderDate.Width = 150;
+            this.OrderDate.Width = 148;
             // 
             // panel3
             // 
@@ -386,6 +390,7 @@ namespace WinFormsCEFIntegrated
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1365, 420);
             this.panel3.TabIndex = 11;
+            this.panel3.BackColor = Color.Black;
             // 
             // Form2
             // 
