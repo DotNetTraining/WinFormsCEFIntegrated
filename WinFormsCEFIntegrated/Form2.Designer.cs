@@ -54,10 +54,6 @@ namespace WinFormsCEFIntegrated
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dataGridView1.BorderStyle = BorderStyle.FixedSingle;
-            this.dataGridView1.CellBorderStyle = DataGridViewCellBorderStyle.Single;
-            this.dataGridView1.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            this.dataGridView1.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             this.OrderType = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Company = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -116,11 +112,12 @@ namespace WinFormsCEFIntegrated
             // 
             // textBox6
             // 
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(908, 17);
+            this.textBox6.Location = new System.Drawing.Point(884, 22);
             this.textBox6.Margin = new System.Windows.Forms.Padding(2);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(122, 21);
+            this.textBox6.Size = new System.Drawing.Size(100, 14);
             this.textBox6.TabIndex = 9;
             // 
             // lblCompany
@@ -136,27 +133,29 @@ namespace WinFormsCEFIntegrated
             // 
             // textBox7
             // 
+            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(83, 17);
+            this.textBox7.Location = new System.Drawing.Point(83, 23);
             this.textBox7.Margin = new System.Windows.Forms.Padding(2);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 21);
+            this.textBox7.Size = new System.Drawing.Size(100, 14);
             this.textBox7.TabIndex = 5;
             // 
             // textBox8
             // 
+            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(671, 16);
+            this.textBox8.Location = new System.Drawing.Point(659, 23);
             this.textBox8.Margin = new System.Windows.Forms.Padding(2);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(110, 21);
+            this.textBox8.Size = new System.Drawing.Size(100, 14);
             this.textBox8.TabIndex = 8;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.label7.Location = new System.Drawing.Point(794, 20);
+            this.label7.Location = new System.Drawing.Point(772, 20);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(107, 15);
@@ -167,7 +166,7 @@ namespace WinFormsCEFIntegrated
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.label8.Location = new System.Drawing.Point(193, 20);
+            this.label8.Location = new System.Drawing.Point(193, 22);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(85, 15);
@@ -176,27 +175,29 @@ namespace WinFormsCEFIntegrated
             // 
             // textBox9
             // 
+            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(285, 18);
+            this.textBox9.Location = new System.Drawing.Point(284, 24);
             this.textBox9.Margin = new System.Windows.Forms.Padding(2);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(108, 21);
+            this.textBox9.Size = new System.Drawing.Size(100, 14);
             this.textBox9.TabIndex = 6;
             // 
             // textBox10
             // 
+            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(491, 16);
+            this.textBox10.Location = new System.Drawing.Point(484, 23);
             this.textBox10.Margin = new System.Windows.Forms.Padding(2);
             this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(104, 21);
+            this.textBox10.Size = new System.Drawing.Size(100, 14);
             this.textBox10.TabIndex = 7;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.label9.Location = new System.Drawing.Point(608, 20);
+            this.label9.Location = new System.Drawing.Point(597, 21);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(56, 15);
@@ -207,7 +208,7 @@ namespace WinFormsCEFIntegrated
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.label10.Location = new System.Drawing.Point(403, 20);
+            this.label10.Location = new System.Drawing.Point(397, 21);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(81, 15);
@@ -307,6 +308,7 @@ namespace WinFormsCEFIntegrated
             // dataGridView1
             // 
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.OrderType,
@@ -317,10 +319,12 @@ namespace WinFormsCEFIntegrated
             this.OrderAmount,
             this.Currency,
             this.OrderDate});
+            this.dataGridView1.GridColor = System.Drawing.SystemColors.ControlLight;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridView1.RowTemplate.Height = 28;
             this.dataGridView1.Size = new System.Drawing.Size(1365, 557);
             this.dataGridView1.TabIndex = 10;
@@ -330,6 +334,7 @@ namespace WinFormsCEFIntegrated
             this.OrderType.HeaderText = "Order Type";
             this.OrderType.MinimumWidth = 8;
             this.OrderType.Name = "OrderType";
+            this.OrderType.ReadOnly = true;
             this.OrderType.Width = 165;
             // 
             // PO
@@ -337,6 +342,7 @@ namespace WinFormsCEFIntegrated
             this.PO.HeaderText = "PO#";
             this.PO.MinimumWidth = 8;
             this.PO.Name = "PO";
+            this.PO.ReadOnly = true;
             this.PO.Width = 165;
             // 
             // Company
@@ -344,6 +350,7 @@ namespace WinFormsCEFIntegrated
             this.Company.HeaderText = "Company";
             this.Company.MinimumWidth = 8;
             this.Company.Name = "Company";
+            this.Company.ReadOnly = true;
             this.Company.Width = 168;
             // 
             // VendorName
@@ -351,6 +358,7 @@ namespace WinFormsCEFIntegrated
             this.VendorName.HeaderText = "Vendor Name";
             this.VendorName.MinimumWidth = 8;
             this.VendorName.Name = "VendorName";
+            this.VendorName.ReadOnly = true;
             this.VendorName.Width = 165;
             // 
             // Description
@@ -358,6 +366,7 @@ namespace WinFormsCEFIntegrated
             this.Description.HeaderText = "Description";
             this.Description.MinimumWidth = 8;
             this.Description.Name = "Description";
+            this.Description.ReadOnly = true;
             this.Description.Width = 165;
             // 
             // OrderAmount
@@ -365,6 +374,7 @@ namespace WinFormsCEFIntegrated
             this.OrderAmount.HeaderText = "Order Amount";
             this.OrderAmount.MinimumWidth = 8;
             this.OrderAmount.Name = "OrderAmount";
+            this.OrderAmount.ReadOnly = true;
             this.OrderAmount.Width = 165;
             // 
             // Currency
@@ -372,6 +382,7 @@ namespace WinFormsCEFIntegrated
             this.Currency.HeaderText = "Currency";
             this.Currency.MinimumWidth = 8;
             this.Currency.Name = "Currency";
+            this.Currency.ReadOnly = true;
             this.Currency.Width = 165;
             // 
             // OrderDate
@@ -379,10 +390,12 @@ namespace WinFormsCEFIntegrated
             this.OrderDate.HeaderText = "Order Date";
             this.OrderDate.MinimumWidth = 8;
             this.OrderDate.Name = "OrderDate";
+            this.OrderDate.ReadOnly = true;
             this.OrderDate.Width = 165;
             // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.Color.Black;
             this.panel3.Controls.Add(this.dataGridView1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 54);
@@ -390,7 +403,6 @@ namespace WinFormsCEFIntegrated
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1365, 420);
             this.panel3.TabIndex = 11;
-            this.panel3.BackColor = Color.Black;
             // 
             // Form2
             // 

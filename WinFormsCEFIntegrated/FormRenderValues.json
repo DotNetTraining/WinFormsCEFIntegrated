@@ -7,7 +7,7 @@
     {
         //Setting for Smart Po
         "FormName": "Form2",
-        "RenderFrom": "WindowsForm"
+        "RenderFrom": "Cef"
     },
     {
         //Setting for purchase Order Reports
